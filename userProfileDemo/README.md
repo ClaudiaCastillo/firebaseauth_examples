@@ -9,10 +9,8 @@ Update your database rules engine to only allow authenticated users to read/writ
 
 [Firebase Security](https://firebase.google.com/docs/database/security/)
 
-##Example of firebase rules policy
-
-<pre><code>
-{
+## Example of firebase rules policy
+<pre><code>{
   "rules":{ 
   	"users": {
       "$uid": {
@@ -21,5 +19,4 @@ Update your database rules engine to only allow authenticated users to read/writ
       }
     }
   }
-}
-</code></pre>
+}</code></pre>
